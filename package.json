@@ -1,21 +1,18 @@
 {
-	"name": "nodebb-plugin-google-search2",
+	"name": "nodebb-plugin-duckduckgo-search",
 	"version": "1.0.3",
-	"description": "Redirect search queries to Google.",
+	"description": "Redirect search queries to DuckDuckGo.",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/revir/nodebb-plugin-google-search2.git"
+		"url": "git+https://github.com/rfc2822/nodebb-plugin-duckduckgo-search.git"
 	},
-	"author": "River Yang <revir.qing@gmail.com>",
+	"author": "River Yang <revir.qing@gmail.com>, Ricki Hirner",
 	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/revir/nodebb-plugin-google-search2/issues"
-	},
-	"homepage": "https://github.com/revir/nodebb-plugin-google-search2#readme",
+	"homepage": "https://github.com/rfc2822/nodebb-plugin-duckduckgo-search",
 	"nbbpm": {
 		"compatibility": "^1.0.1"
 	}

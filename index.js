@@ -3,7 +3,7 @@
 var nconf = module.parent.require('nconf');
 
 function searchURL(req) {
-	return 'https://www.google.com/search?q=site:' + encodeURIComponent(nconf.get('url')) + '+' + encodeURIComponent(req.params.term || req.query.term || '');
+	return 'https://duckduckgo.com/?q=site:' + encodeURIComponent(nconf.get('url')) + '+' + encodeURIComponent(req.params.term || req.query.term || '');
 }
 
 module.exports = {

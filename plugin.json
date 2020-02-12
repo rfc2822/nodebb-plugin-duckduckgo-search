@@ -1,8 +1,8 @@
 {
-	"id": "nodebb-plugin-google-search2",
-	"name": "Google Search",
-	"description": "Redirect search queries to Google.",
-	"url": "https://github.com/BenLubar/nodebb-plugin-google-search2",
+	"id": "nodebb-plugin-google-duckduckgo",
+	"name": "DuckDuckGo Search",
+	"description": "Redirect search queries to DuckDuckGo.",
+	"url": "https://github.com/rfc2822/nodebb-plugin-duckduckgo-search",
 	"library": "./index.js",
 	"hooks": [
 		{"hook": "static:app.load", "method": "init"}
